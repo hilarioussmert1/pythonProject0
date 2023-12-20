@@ -15,6 +15,7 @@ class NewsList(ListView):
         context['next_sale'] = 'скоро можно будет выкладывать новости'
         return context
 
+
 class NewDetail(DetailView):
     model = News
     template_name = 'new.html'

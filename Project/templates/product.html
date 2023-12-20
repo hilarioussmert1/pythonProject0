@@ -1,9 +1,12 @@
 {% extends 'flatpages/default.html'%}
 
+
 {% block title %}
 Product
 {% endblock title %}
 
 {% block content %}
-<h1>{{product}}</h1>
+    <h2> {{ time_now|date:'M d Y'}}</h2>
+    <h2>Новости:{{product.name}}</h2>
+    <h5>{{product.description}}</h5>
 {% endblock content %}

@@ -29,4 +29,4 @@ bad_words = [
 def censor(value):
     for word in bad_words:
         value = value.lower().replace(word.lower(), '***')
-        return f'{value}'
+    return f'{value}'
