@@ -1,4 +1,6 @@
+from django.shortcuts import render
 from django.views.generic import ListView, DetailView
+from .forms import ProductForm
 from .models import Product
 from .filters import ProductFilter
 
@@ -25,3 +27,8 @@ class ProductDetail(DetailView):
     model = Product
     template_name = 'product.html'
     context_object_name = 'product'
+
+
+def create_products(request):
+    form = ProductForm()
+    return render(request, 'product_edit.html', {'form': form})
