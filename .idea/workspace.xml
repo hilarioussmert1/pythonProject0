@@ -4,23 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b982ae75-8f7c-4eb4-8671-1804cb37123c" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/simpleapp/forms.py" afterDir="false" />
+    <list default="true" id="b982ae75-8f7c-4eb4-8671-1804cb37123c" name="Changes" comment="filtration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Project/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/simpleapp/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/simpleapp/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/simpleapp/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/simpleapp/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/simpleapp/templatetags/custom_filter.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/simpleapp/templatetags/custom_filter.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/simpleapp/templatetags/custom_tags.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/simpleapp/templatetags/custom_tags.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/simpleapp/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/simpleapp/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/simpleapp/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/simpleapp/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/templates/product.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/templates/product.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/templates/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/templates/products.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/fields/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/venv/Lib/site-packages/django/db/models/fields/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -195,6 +180,36 @@
       <option name="presentableId" value="Default" />
       <updated>1676975518589</updated>
     </task>
+    <task id="LOCAL-00001" summary="filtration">
+      <created>1703035215195</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1703035215195</updated>
+    </task>
+    <task id="LOCAL-00002" summary="filtration">
+      <created>1703035389979</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703035389979</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="filtration" />
+    <option name="LAST_COMMIT_MESSAGE" value="filtration" />
   </component>
 </project>

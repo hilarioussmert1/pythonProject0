@@ -1,0 +1,8 @@
+.idea/
+Project/news/__pycache__/
+venv/
+Project/news/migrations/__pycache__/
+Project/Project/__pycache__/
+Project/simpleapp/__pycache__/
+Project/simpleapp/migrations/__pycache__/
+Project/simpleapp/templatetags/__pycache__/
