@@ -11,9 +11,6 @@ class Material(models.Model):
 
 
 class Product(models.Model):
-    skin = 'кожа'
-    volokno = 'волокно'
-    CATEGORY = [(skin, 'кожа'), (volokno, 'волокно')]
 
     name = models.CharField(
         max_length=50,
@@ -34,7 +31,6 @@ class Product(models.Model):
     )
 
     product_material = models.ManyToManyField(Material, through='ProductMaterial')
-    choice = models.CharField(max_length=20, choices=CATEGORY, default=skin)
 
     def __str__(self):
         return f'{self.name.title()}: {self.description[:20]}'
