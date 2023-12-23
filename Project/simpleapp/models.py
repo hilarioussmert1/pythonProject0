@@ -11,7 +11,6 @@ class Material(models.Model):
 
 
 class Product(models.Model):
-
     name = models.CharField(
         max_length=50,
         unique=True,
