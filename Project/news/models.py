@@ -12,9 +12,7 @@ class News(models.Model):
         null=True,
         blank=False,
     )
-    release_date = models.DateTimeField(
-        null=True,
-    )
+    release_date = models.DateTimeField(auto_now_add=True,)
 
     def __str__(self):
         return f'{self.name}, {self.description[:64]}, {self.release_date}'

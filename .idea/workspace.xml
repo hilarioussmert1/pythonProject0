@@ -4,8 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b982ae75-8f7c-4eb4-8671-1804cb37123c" name="Changes" comment="filtration">
+    <list default="true" id="b982ae75-8f7c-4eb4-8671-1804cb37123c" name="Changes" comment="delete_product and update_product and link after that to all products">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/db.sqlite3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/news/migrations/0001_initial.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/news/migrations/0002_news_remove_new_description_alter_new_name.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/news/migrations/0003_delete_new.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/news/models.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +20,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -194,7 +199,42 @@
       <option name="project" value="LOCAL" />
       <updated>1703035389979</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="filtration">
+      <created>1703038732173</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703038732173</updated>
+    </task>
+    <task id="LOCAL-00004" summary="create_product">
+      <created>1703044066733</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1703044066733</updated>
+    </task>
+    <task id="LOCAL-00005" summary="delete_product and update_product and link after that to all products">
+      <created>1703056938342</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1703056938342</updated>
+    </task>
+    <task id="LOCAL-00006" summary="delete_product and update_product and link after that to all products">
+      <created>1703324387952</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703324387952</updated>
+    </task>
+    <task id="LOCAL-00007" summary="delete_product and update_product and link after that to all products">
+      <created>1703331288469</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703331288470</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +250,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="filtration" />
-    <option name="LAST_COMMIT_MESSAGE" value="filtration" />
+    <MESSAGE value="create_product" />
+    <MESSAGE value="delete_product and update_product and link after that to all products" />
+    <option name="LAST_COMMIT_MESSAGE" value="delete_product and update_product and link after that to all products" />
   </component>
 </project>
