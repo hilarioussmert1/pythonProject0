@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b982ae75-8f7c-4eb4-8671-1804cb37123c" name="Changes" comment="delete_product and update_product and link after that to all products">
-      <change afterPath="$PROJECT_DIR$/Project/news/migrations/0002_news_type.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/news/migrations/0003_remove_news_type_news_article_news.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project/templates/news_delete.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/Project/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/Project/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/Project/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/news/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/news/filters.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/news/forms.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/news/forms.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/news/migrations/0001_initial.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/news/migrations/0001_initial.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/news/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/news/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/news/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/news/urls.py" afterDir="false" />
+    <list default="true" id="b982ae75-8f7c-4eb4-8671-1804cb37123c" name="Changes" comment="news_delete articles_create articles_edit articles_delete">
       <change beforePath="$PROJECT_DIR$/Project/news/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/Project/news/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/templates/news.html" beforeDir="false" afterPath="$PROJECT_DIR$/Project/templates/news.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -256,7 +244,21 @@
       <option name="project" value="LOCAL" />
       <updated>1703332721717</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="delete_product and update_product and link after that to all products">
+      <created>1703474683066</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703474683066</updated>
+    </task>
+    <task id="LOCAL-00011" summary="news_delete articles_create articles_edit articles_delete">
+      <created>1703474752650</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703474752650</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -275,6 +277,7 @@
     <MESSAGE value="filtration" />
     <MESSAGE value="create_product" />
     <MESSAGE value="delete_product and update_product and link after that to all products" />
-    <option name="LAST_COMMIT_MESSAGE" value="delete_product and update_product and link after that to all products" />
+    <MESSAGE value="news_delete articles_create articles_edit articles_delete" />
+    <option name="LAST_COMMIT_MESSAGE" value="news_delete articles_create articles_edit articles_delete" />
   </component>
 </project>
