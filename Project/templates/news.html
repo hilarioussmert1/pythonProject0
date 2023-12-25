@@ -20,12 +20,14 @@ News
                 <td>Название</td>
                 <td>Описание</td>
                 <td>Категория</td>
+                <td>Тип публикации</td>
             </tr>
             {% for new in news %}
             <tr>
                 <td>{{ new.name|censor|truncatechars:10 }}</td>
                 <td>{{ new.description| truncatechars:15|censor }}</td>
                 <td>{{ new.category}}</td>
+                <td>{{ new.get_article_news_display }}</td>
             </tr>
             {% endfor %}
         </table>

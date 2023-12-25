@@ -3,6 +3,14 @@ from django.urls import reverse
 
 
 class News(models.Model):
+    news = 'NW'
+    article = 'AR'
+
+    Type = [
+        (news, 'новость'),
+        (article, 'статья')
+    ]
+
     name = models.CharField(max_length=155)
     description = models.TextField()
     category = models.ForeignKey(
@@ -12,7 +20,8 @@ class News(models.Model):
         null=True,
         blank=False,
     )
-    release_date = models.DateTimeField(auto_now_add=True,)
+    release_date = models.DateTimeField(auto_now_add=True)
+    article_news = models.CharField(max_length=2, choices=Type, default=news)
 
     def __str__(self):
         return f'{self.name}, {self.description[:64]}, {self.release_date}'
