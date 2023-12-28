@@ -1,9 +1,12 @@
-from datetime import datetime
 from django.urls import reverse_lazy
-from django.views.generic import (ListView, DetailView, CreateView, UpdateView, DeleteView)
+from django.views.generic import (ListView, DetailView, UpdateView, DeleteView)
+from django.views.generic.edit import CreateView
 from .filters import NewsFilter
 from .forms import NewsForm
 from .models import News
+from django.contrib.auth.mixins import LoginRequiredMixin, PermissionRequiredMixin
+from django.views.generic import TemplateView
+from rest_framework.permissions import IsAuthenticatedOrReadOnly
 
 
 class NewsList(ListView):
@@ -43,7 +46,8 @@ class NewsSearch(ListView):
         return context
 
 
-class NewsCreate(CreateView):
+class NewsCreate(PermissionRequiredMixin, CreateView):
+    permission_required = ('news.add_news',)
     form_class = NewsForm
     model = News
     template_name = 'news_create.html'
@@ -56,7 +60,8 @@ class NewsCreate(CreateView):
         return super().form_valid(form)
 
 
-class NewsUpdate(UpdateView):
+class NewsUpdate(PermissionRequiredMixin, LoginRequiredMixin,  UpdateView):
+    permission_required = ('news.change_news',)
     form_class = NewsForm
     model = News
     template_name = 'news_create.html'
@@ -66,4 +71,11 @@ class NewsDelete(DeleteView):
     model = News
     template_name = 'news_delete.html'
     success_url = reverse_lazy('news_list')
+
+
+class ProtectedView(LoginRequiredMixin, TemplateView):
+    model = News
+    template_name = 'news_create.html'
+    form_class = NewsForm
+    login_url = 'news'
 
