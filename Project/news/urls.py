@@ -12,4 +12,5 @@ urlpatterns = [
     path('articles/<int:pk>/edit/', NewsUpdate.as_view(), name='articles_update'),
     path('articles/<int:pk>/delete/', NewsDelete.as_view(), name='articles_delete'),
     path('news/', NewsList.as_view(), name='news_list'),
+    path('categories/<int:pk>', )
 ]
