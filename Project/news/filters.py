@@ -24,8 +24,3 @@ class NewsFilter(FilterSet):
             'category': ['exact'],
             'release_date': ['exact'],
         }
-
-
-
-
-

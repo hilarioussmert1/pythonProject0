@@ -11,8 +11,6 @@ News
 {% block content %}
     <h1>Все новости</h1>
     <h3>{{ time_now|date:'M d Y'}}</h3>
-    <h3>{{ next_sale}}</h3>
-    <h4>Количество написанных новостей: {{ news|length}}</h4>
     <hr>
     {% if news %}
         <table>
@@ -24,8 +22,8 @@ News
             </tr>
             {% for new in news %}
             <tr>
-                <td>{{ new.name|censor|truncatechars:10 }}</td>
-                <td>{{ new.description| truncatechars:15|censor }}</td>
+                <td>{{ new.name|truncatechars:10 }}</td>
+                <td>{{ new.description| truncatechars:15 }}</td>
                 <td>{{ new.category}}</td>
                 <td>{{ new.get_article_news_display }}</td>
             </tr>

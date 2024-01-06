@@ -1,3 +1,5 @@
+from django.shortcuts import render
+
 from django.urls import reverse_lazy
 from django.views.generic import (ListView, DetailView, UpdateView, DeleteView)
 from django.views.generic.edit import CreateView
@@ -78,4 +80,3 @@ class ProtectedView(LoginRequiredMixin, TemplateView):
     template_name = 'news_create.html'
     form_class = NewsForm
     login_url = 'news'
-
